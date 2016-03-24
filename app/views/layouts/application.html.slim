@@ -1,0 +1,14 @@
+- content_for :header_class, 'with-proposition'
+= content_for :head do
+  = stylesheet_link_tag 'application'
+= content_for :proposition_header do
+  .header-proposition
+    .content
+      a.js-header-toggle.menu href="#proposition-links"  Menu
+      nav#proposition-menu
+        a#proposition-name href="/"
+          | Queen's Awards for Voluntary Service
+= content_for :content do
+  main#content
+    = yield
+= render :template => 'layouts/govuk_template'
