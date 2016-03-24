@@ -10,5 +10,13 @@
           | Queen's Awards for Voluntary Service
 = content_for :content do
   main#content
+    .phase-banner-alpha
+      p
+        strong.phase-tag ALPHA
+        span
+          | This is a new service – your
+          a<> href="#" target="_blank" feedback
+          |    will help us to improve it.
+
     = yield
 = render :template => 'layouts/govuk_template'
