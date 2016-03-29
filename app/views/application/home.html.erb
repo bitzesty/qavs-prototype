@@ -1,0 +1,690 @@
+<div class="grid-row">
+  <div class="column-two-thirds">
+    <form action="/" method="post" class="nomination-form">
+
+      <h1 class="heading-large">
+        Nomination form
+      </h1>
+
+      <h3 class="heading-medium">Group you are nominating</h3>
+
+      <div class="form-group">
+        <label class="form-label" for="group-name">
+          I nominate the following volunteer group for a Queen's Award
+          <span class="form-hint">
+            It is important that the name is accurate and spelt correctly, as this will appear on the Award certificate if your nomination succeeds.
+          </span>
+        </label>
+        <input class="form-control" id="group-name" type="text">
+      </div>
+
+      <h3 class="heading-medium">What makes their work excellent?</h3>
+
+      <div class="form-group">
+        <label class="form-label" for="group-work">
+          What is the work of the group? What makes it excellent?
+          <span class="form-hint">
+            Please use no more than 50 words
+          </span>
+        </label>
+        <textarea class="form-control" id="group-work" cols="30" rows="5"></textarea>
+      </div>
+
+      <h3 class="heading-medium">Contact details for the group</h3>
+
+      <div class="form-group">
+        <label class="form-label" for="building-name">
+          Number/name of building
+        </label>
+        <input class="form-control" id="building-name" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="street">
+          Street
+        </label>
+        <input class="form-control" id="street" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="village">
+          Village or town
+        </label>
+        <input class="form-control" id="village" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="county">
+          County
+        </label>
+        <input class="form-control" id="county" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="postcode">
+          Postcode
+        </label>
+        <input class="form-control" id="postcode" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="london-borough">
+          London borough
+          <span class="form-hint">
+            If applicable
+          </span>
+        </label>
+        <input class="form-control" id="london-borough" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="website">
+          Website
+        </label>
+        <input class="form-control" id="website" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="telephone">
+          Telephone
+        </label>
+        <input class="form-control" id="telephone" type="text">
+      </div>
+
+      <h3 class="heading-medium">About the group leader or main contact in the group</h3>
+
+      <div class="form-group">
+        <label class="form-label" for="leader-name">
+          Name of the group leader or main contact in the group
+        </label>
+        <input class="form-control" id="leader-name" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="leader-position">
+          Position held in the group
+        </label>
+        <input class="form-control" id="leader-position" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="leader-involved">
+          How long has this person been involved in the group?
+        </label>
+        <input class="form-control" id="leader-involved" type="text">
+      </div>
+
+      <h3 class="heading-medium">Contact address of the group leader or main contact</h3>
+
+      <div class="form-group">
+        <label class="form-checkbox" for="checkbox-same-as-group">
+          <input id="checkbox-same-as-group" type="checkbox">
+          Same address as group
+        </label>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="leader-building-name">
+          Number/name of building
+        </label>
+        <input class="form-control" id="leader-building-name" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="leader-street">
+          Street
+        </label>
+        <input class="form-control" id="leader-street" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="leader-village">
+          Village or town
+        </label>
+        <input class="form-control" id="leader-village" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="leader-county">
+          County
+        </label>
+        <input class="form-control" id="leader-county" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="leader-postcode">
+          Postcode
+        </label>
+        <input class="form-control" id="leader-postcode" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="leader-london-borough">
+          London borough
+          <span class="form-hint">
+            If applicable
+          </span>
+        </label>
+        <input class="form-control" id="leader-london-borough" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="leader-website">
+          Website
+        </label>
+        <input class="form-control" id="leader-website" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="leader-telephone">
+          Telephone
+        </label>
+        <input class="form-control" id="leader-telephone" type="text">
+      </div>
+
+      <h3 class="heading-medium">Eligibility</h3>
+
+      <div class="form-group">
+        <label class="form-label" for="years-operating">
+          How many years has the group been operating?
+        </label>
+        <input class="form-control small-input" id="years-operating" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="organisation-name">
+          Is the group a branch of, or affiliated to, a larger or
+          national organisation? If yes, please give the name of the organisation
+        </label>
+        <textarea class="form-control" id="organisation-name" cols="30" rows="5"></textarea>
+      </div>
+
+      <div class="panel panel-border-wide">
+        <h3 class="heading-small">How many people are actively involved in the group's work?</h3>
+        <p>
+          To be eligible for an Award, more than half the group members must be volunteers.
+        </p>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="number-volunteers">
+          Number of volunteers
+          <span class="form-hint">
+            Including unpaid trustees/committee members
+          </span>
+        </label>
+        <input class="form-control small-input" id="number-volunteers" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="number-paid-staff">
+          Number of paid staff
+          <span class="form-hint">
+            Including full time and part time
+          </span>
+        </label>
+        <input class="form-control small-input" id="number-paid-staff" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="group-beneficiaries">
+          Please explain where the group's beneficiaries (i.e. the people it helps) live
+        </label>
+        <textarea class="form-control" id="group-beneficiaries" cols="30" rows="5"></textarea>
+      </div>
+
+      <fieldset>
+        <label class="block-label" for="right-of-residence">
+          <input id="right-of-residence" name="waste-types" type="checkbox" value="waste-animal">
+          Do at least half the volunteers have the right of residence in the UK?
+        </label>
+        <label class="block-label" for="nominator-not-involved">
+          <input id="nominator-not-involved" name="waste-types" type="checkbox" value="waste-mines">
+          Can you confirm that as nominator you are not directly involved in the group either
+          as a paid member of staff or a volunteer (nominations from staff members or volunteers will be deemed ineligible)
+        </label>
+      </fieldset>
+
+      <h3 class="heading-medium">Work of the group</h3>
+
+      <p>
+        In this section you should give brief information about the group, its main area of work
+        and its volunteers and beneficiaries. Please see the guidance notes for more information
+        about which groups are eligible for an Award and answer each question in no more than 50 words.
+      </p>
+
+      <div class="form-group">
+        <label class="form-label" for="volunteers-info">
+          Please tell us about the group's volunteers
+          <span class="form-hint">
+            For example, age, gender, how long involved with the group, the type of work they do for the group
+          </span>
+        </label>
+        <textarea class="form-control" id="volunteers-info" cols="30" rows="5"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="group-benefits">
+          Who benefits from the group's work? And how many people have benefited in the last 12 months?
+          <span class="form-hint">
+            You may give an estimated number.
+          </span>
+        </label>
+        <textarea class="form-control" id="group-benefits" cols="30" rows="5"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="contribution-recognised">
+          Has the group's contribution been recognised elsewhere?
+          <span class="form-hint">
+            For example, in the media, by local government, by other awards.
+          </span>
+        </label>
+        <textarea class="form-control" id="contribution-recognised" cols="30" rows="5"></textarea>
+      </div>
+
+      <h3 class="heading-medium">Your recommendation</h3>
+
+      <p>
+        In this section, please explain how your nominated group has made a significant contribution
+        in its area of activity. We are looking for groups that have given excellent service to their
+        beneficiaries and communities; have delivered their service in innovative ways; and have shown
+        other examples of selfless voluntary service that distinguish their work. Please answer each question
+        in no more than 200 words, explaining what achievements make the nominated group stand out from others.
+      </p>
+
+      <div class="form-group">
+        <label class="form-label" for="group-needs">
+          What social/economic/environmental need is this group meeting for individuals, groups or the whole community? How is it doing this?
+        </label>
+        <textarea class="form-control" id="group-needs" cols="30" rows="5"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="group-good-will">
+          How has the group generated a high level of good will and respect among those it serves and the whole community? Please give examples.
+        </label>
+        <textarea class="form-control" id="group-good-will" cols="30" rows="5"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="group-obstacles">
+          If there have been significant obstacles to the group's programme, please list them here and say how the group has overcome them.
+        </label>
+        <textarea class="form-control" id="group-obstacles" cols="30" rows="5"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="group-achieved">
+          How has the group achieved, or how is it moving towards achieving, some or all of the examples of high standards of excellence in volunteering?
+        </label>
+        <textarea class="form-control" id="group-achieved" cols="30" rows="5"></textarea>
+      </div>
+
+      <p>Please include the following when answering this section.</p>
+
+      <ul class="list list-bullet">
+        <li>Are there opportunities for volunteers to develop their skills and receive appropriate training or learning?</li>
+        <li>Do volunteers receive support and guidance?</li>
+        <li>Can volunteers give feedback on what they are doing and how they would like to develop their roles?</li>
+        <li>Are there ways for the group to recognise volunteers' contributions?</li>
+        <li>Are health and safety procedures in place?</li>
+        <li>Are volunteers reimbursed for their out-of-pocket expenses?</li>
+        <li>Does the group satisfy requirements to safeguard children and vulnerable adults, if appropriate? These requirements may include Criminal Records Bureau checks.</li>
+        <li>If needed, does the group have public liability insurance?</li>
+      </ul>
+
+      <h3 class="heading-medium">Letters of support</h3>
+
+      <p>Please note that letters of support:</p>
+
+      <ul class="list list-bullet">
+        <li>Cannot come from the nominator</li>
+        <li>Must come from two people who are independent from the group (not a volunteer, paid member of staff, trustee etc)</li>
+      </ul>
+
+      <div class="form-group">
+        <label class="form-label" for="name-supporter">
+          Name of supporter
+        </label>
+        <input class="form-control" id="name-supporter" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="relationship-with-group">
+          Relationship to group
+        </label>
+        <input class="form-control" id="relationship-with-group" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="supporter-letter">
+          Letter
+          <span class="form-hint">Maximum file size: 1.5 MB. Acceptable file extensions: jpg,jpeg,gif,png,pdf,doc,docx,odt,txt</span>
+        </label>
+        <input id="supporter-letter" type="file">
+      </div>
+
+      <hr>
+
+      <div class="form-group">
+        <label class="form-label" for="name-supporter-2">
+          Name of supporter
+        </label>
+        <input class="form-control" id="name-supporter-2" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="relationship-supporter-2">
+          Relationship to group
+        </label>
+        <input class="form-control" id="relationship-supporter-2" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="supporter-letter-2">
+          Letter
+          <span class="form-hint">Maximum file size: 1.5 MB. Acceptable file extensions: jpg,jpeg,gif,png,pdf,doc,docx,odt,txt</span>
+        </label>
+        <input id="supporter-letter-2" type="file">
+      </div>
+
+
+      <h3 class="heading-medium">Details of the person making the nomination</h3>
+
+      <div class="form-group">
+        <label class="form-label" for="nominator-name">
+          Name
+        </label>
+        <input class="form-control" id="nominator-name" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="nomitator-building">
+          Number/name of building
+        </label>
+        <input class="form-control" id="nomitator-building" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="nominator-street">
+          Street
+        </label>
+        <input class="form-control" id="nominator-street" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="nominator-village">
+          Village or town
+        </label>
+        <input class="form-control" id="nominator-village" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="nominator-county">
+          County
+        </label>
+        <input class="form-control" id="nominator-county" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="nominator-postcode">
+          Postcode
+        </label>
+        <input class="form-control" id="nominator-postcode" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="nominator-london-borough">
+          London borough
+          <span class="form-hint">
+            If applicable
+          </span>
+        </label>
+        <input class="form-control" id="nominator-london-borough" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="nominator-telephone">
+          Telephone
+        </label>
+        <input class="form-control" id="nominator-telephone" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="nominator-mobile">
+          Mobile
+        </label>
+        <input class="form-control" id="nominator-mobile" type="text">
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="nominator-email">
+          Email
+        </label>
+        <input class="form-control" id="nominator-email" type="text">
+      </div>
+
+      <h3 class="heading-medium">Where did you hear about the Award?</h3>
+
+      <div class="grid-row">
+
+        <div class="column-one-half">
+          <fieldset>
+            <label class="block-label" for="national-newspaper">
+              <input id="national-newspaper" type="radio" name="radio-group" value="">
+              National newspaper
+            </label>
+            <label class="block-label" for="tv">
+              <input id="tv" type="radio" name="radio-group" value="">
+              TV/radio
+            </label>
+            <label class="block-label" for="word-of-mouth">
+              <input id="word-of-mouth" type="radio" name="radio-group" value="">
+              Word of mouth
+            </label>
+            <label class="block-label" for="voluntary-organisation">
+              <input id="voluntary-organisation" type="radio" name="radio-group" value="">
+              Voluntary organisation
+            </label>
+            <label class="block-label" for="local-library">
+              <input id="local-library" type="radio" name="radio-group" value="">
+              Local library
+            </label>
+            <label class="block-label" for="other-method">
+              <input id="other-method" type="radio" name="radio-group" value="">
+              Other
+            </label>
+          </fieldset>
+        </div>
+
+        <div class="column-one-half">
+          <fieldset>
+            <label class="block-label" for="local-newspaper">
+              <input id="local-newspaper" type="radio" name="radio-group" value="">
+              Local newspaper
+            </label>
+            <label class="block-label" for="internet">
+              <input id="internet" type="radio" name="radio-group" value="">
+              Internet
+            </label>
+            <label class="block-label" for="previous-winner">
+              <input id="previous-winner" type="radio" name="radio-group" value="">
+              Previous winner/entrant
+            </label>
+            <label class="block-label" for="local-event">
+              <input id="local-event" type="radio" name="radio-group" value="">
+              Local event
+            </label>
+            <label class="block-label" for="local-council">
+              <input id="local-council" type="radio" name="radio-group" value="">
+              Local council
+            </label>
+          </fieldset>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <p class="form-block"></p>
+        <label class="form-label" for="other-specify">
+          Please specify
+        </label>
+        <input class="form-control" id="other-specify" type="text">
+      </div>
+
+      <h3 class="heading-medium">Ethnic origin</h3>
+
+      <p>
+        Which ethnic group do you consider you belong to? You do not need to
+        complete the ethnic origin sections, but if you do it will help us check
+        that we are reaching all sections of the community.
+      </p>
+
+      <h4 class="heading-small">White</h4>
+
+      <fieldset class="form-block">
+        <label class="block-label" for="ethnic-origin-1">
+          <input id="ethnic-origin-white-1" type="radio" name="ethnic-origin-white" value="british">
+          British
+        </label>
+
+        <label class="block-label" for="ethnic-origin-2">
+          <input id="ethnic-origin-white-2" type="radio" name="ethnic-origin-white" value="irish">
+          Irish
+        </label>
+
+        <label class="block-label" for="ethnic-origin-3">
+          <input id="ethnic-origin-white-3" type="radio" name="ethnic-origin-white" value="other">
+          Any other white background
+        </label>
+      </fieldset>
+
+      <div class="form-group">
+        <label class="form-label" for="ethnic-origin-white-specify">
+          Please specify
+        </label>
+        <input class="form-control" id="ethnic-origin-white-specify" type="text">
+      </div>
+
+      <h4 class="heading-small">Black</h4>
+
+      <fieldset class="form-block">
+        <label class="block-label" for="ethnic-origin-1">
+          <input id="ethnic-origin-black-1" type="radio" name="ethnic-origin-black" value="british">
+          Caribbean
+        </label>
+
+        <label class="block-label" for="ethnic-origin-2">
+          <input id="ethnic-origin-black-2" type="radio" name="ethnic-origin-black" value="irish">
+          African
+        </label>
+
+        <label class="block-label" for="ethnic-origin-3">
+          <input id="ethnic-origin-black-3" type="radio" name="ethnic-origin-black" value="other">
+          Any other black background
+        </label>
+      </fieldset>
+
+      <div class="form-group">
+        <label class="form-label" for="ethnic-origin-black-specify">
+          Please specify
+        </label>
+        <input class="form-control" id="ethnic-origin-black-specify" type="text">
+      </div>
+
+      <h4 class="heading-small">Mixed</h4>
+
+      <fieldset class="form-block">
+        <label class="block-label" for="ethnic-origin-1">
+          <input id="ethnic-origin-mixed-1" type="radio" name="ethnic-origin-mixed" value="british">
+          White and black Caribbean
+        </label>
+
+        <label class="block-label" for="ethnic-origin-2">
+          <input id="ethnic-origin-mixed-2" type="radio" name="ethnic-origin-mixed" value="irish">
+          White and black African
+        </label>
+
+        <label class="block-label" for="ethnic-origin-2">
+          <input id="ethnic-origin-mixed-3" type="radio" name="ethnic-origin-mixed" value="irish">
+          White and Asian
+        </label>
+
+        <label class="block-label" for="ethnic-origin-3">
+          <input id="ethnic-origin-mixed-4" type="radio" name="ethnic-origin-mixed" value="other">
+          Any other black mixed background
+        </label>
+      </fieldset>
+
+      <div class="form-group">
+        <label class="form-label" for="ethnic-origin-mixed-specify">
+          Please specify
+        </label>
+        <input class="form-control" id="ethnic-origin-mixed-specify" type="text">
+      </div>
+
+      <h4 class="heading-small">Asian</h4>
+
+      <fieldset class="form-block">
+        <label class="block-label" for="ethnic-origin-1">
+          <input id="ethnic-origin-asian-1" type="radio" name="ethnic-origin-asian" value="british">
+          Indian
+        </label>
+
+        <label class="block-label" for="ethnic-origin-2">
+          <input id="ethnic-origin-asian-2" type="radio" name="ethnic-origin-asian" value="irish">
+          Pakistani
+        </label>
+
+        <label class="block-label" for="ethnic-origin-2">
+          <input id="ethnic-origin-asian-2" type="radio" name="ethnic-origin-asian" value="irish">
+          Bangladeshi
+        </label>
+
+
+        <label class="block-label" for="ethnic-origin-3">
+          <input id="ethnic-origin-asian-3" type="radio" name="ethnic-origin-asian" value="other">
+          Any other Asian background
+        </label>
+      </fieldset>
+
+      <div class="form-group">
+        <label class="form-label" for="ethnic-origin-asian-specify">
+          Please specify
+        </label>
+        <input class="form-control" id="ethnic-origin-asian-specify" type="text">
+      </div>
+
+      <h4 class="heading-small">Chinese or other ethnic group</h4>
+
+      <fieldset class="form-block">
+        <label class="block-label" for="ethnic-origin-1">
+          <input id="ethnic-origin-white-1" type="radio" name="ethnic-origin-white" value="british">
+          Chinese
+        </label>
+
+        <label class="block-label" for="ethnic-origin-2">
+          <input id="ethnic-origin-white-2" type="radio" name="ethnic-origin-white" value="irish">
+          Any other
+        </label>
+      </fieldset>
+
+      <div class="form-group">
+        <label class="form-label" for="ethnic-origin-chinese-specify">
+          Please specify
+        </label>
+        <input class="form-control" id="ethnic-origin-chinese-specify" type="text">
+      </div>
+
+      <label class="form-checkbox" for="accept-terms">
+        <input id="accept-terms" type="checkbox">
+        I confirm that, to the best of my knowledge and belief, the information in this form is true and correct.
+        I have discussed the nomination with the group. It is happy to be nominated and is aware that the scheme
+        will take detailed steps to assess the group and its work.
+      </label>
+
+       <input class="button" type="submit" value="Save Draft">
+       <input class="button" type="submit" value="Nominate" disabled="disabled">
+    </form>
+  </div>
+</div>
